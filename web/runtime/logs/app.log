@@ -1,0 +1,564 @@
+2019-06-25 21:25:10 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "site/index". in C:\Users\Home\Desktop\Фреймворк Yii2 с Нуля до Профи. Часть 1\eshoper\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 C:\Users\Home\Desktop\Фреймворк Yii2 с Нуля до Профи. Часть 1\eshoper\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/index', Array)
+#1 C:\Users\Home\Desktop\Фреймворк Yii2 с Нуля до Профи. Часть 1\eshoper\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\Users\Home\Desktop\Фреймворк Yii2 с Нуля до Профи. Часть 1\eshoper\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\Users\Home\Desktop\Фреймворк Yii2 с Нуля до Профи. Часть 1\eshoper\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\Users\Home\Desktop\Фреймворк Yii2 с Нуля до Профи. Часть 1\eshoper\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Users\Home\Desktop\Фреймворк Yii2 с Нуля до Профи. Часть 1\eshoper\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2019-06-25 21:25:10 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'f7m4njdudteqofivvqc1ufao1f'
+    '_csrf' => 'aab90cad9f8ee615b17b9b79dcb7bd7a70f6bee2e80f9baaa5ffbcdd5abcde60a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"GAZVLZeJOmMjkk3U-lnfkBEBod0GYnqb\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'yiguzem'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'eshoper.loc:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_REFERER' => 'http://eshoper.loc:8080/site/about'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=f7m4njdudteqofivvqc1ufao1f; _csrf=aab90cad9f8ee615b17b9b79dcb7bd7a70f6bee2e80f9baaa5ffbcdd5abcde60a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22GAZVLZeJOmMjkk3U-lnfkBEBod0GYnqb%22%3B%7D'
+    'PATH' => 'C:\\wamp64\\bin\\php\\php7.3.1;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\Git\\cmd;C:\\ProgramData\\ComposerSetup\\bin;C:\\Windows\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.37 (Win64) PHP/7.2.14 Server at eshoper.loc Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.37 (Win64) PHP/7.2.14'
+    'SERVER_NAME' => 'eshoper.loc'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/Users/Home/Desktop/Фреймворк Yii2 с Нуля до Профи. Часть 1/eshoper'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/Home/Desktop/Фреймворк Yii2 с Нуля до Профи. Часть 1/eshoper'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'C:/Users/Home/Desktop/Фреймворк Yii2 с Нуля до Профи. Часть 1/eshoper/web/index.php'
+    'REMOTE_PORT' => '65082'
+    'REDIRECT_URL' => '/site/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/site/index'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1561497910.172
+    'REQUEST_TIME' => 1561497910
+]
+2019-06-25 21:25:10 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "favicon.ico". in C:\Users\Home\Desktop\Фреймворк Yii2 с Нуля до Профи. Часть 1\eshoper\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 C:\Users\Home\Desktop\Фреймворк Yii2 с Нуля до Профи. Часть 1\eshoper\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('favicon.ico', Array)
+#1 C:\Users\Home\Desktop\Фреймворк Yii2 с Нуля до Профи. Часть 1\eshoper\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\Users\Home\Desktop\Фреймворк Yii2 с Нуля до Профи. Часть 1\eshoper\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\Users\Home\Desktop\Фреймворк Yii2 с Нуля до Профи. Часть 1\eshoper\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\Users\Home\Desktop\Фреймворк Yii2 с Нуля до Профи. Часть 1\eshoper\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Users\Home\Desktop\Фреймворк Yii2 с Нуля до Профи. Часть 1\eshoper\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2019-06-25 21:25:10 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'f7m4njdudteqofivvqc1ufao1f'
+    '_csrf' => 'aab90cad9f8ee615b17b9b79dcb7bd7a70f6bee2e80f9baaa5ffbcdd5abcde60a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"GAZVLZeJOmMjkk3U-lnfkBEBod0GYnqb\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'yiguzem'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'eshoper.loc:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://eshoper.loc:8080/site/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=f7m4njdudteqofivvqc1ufao1f; _csrf=aab90cad9f8ee615b17b9b79dcb7bd7a70f6bee2e80f9baaa5ffbcdd5abcde60a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22GAZVLZeJOmMjkk3U-lnfkBEBod0GYnqb%22%3B%7D'
+    'PATH' => 'C:\\wamp64\\bin\\php\\php7.3.1;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\Git\\cmd;C:\\ProgramData\\ComposerSetup\\bin;C:\\Windows\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.37 (Win64) PHP/7.2.14 Server at eshoper.loc Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.37 (Win64) PHP/7.2.14'
+    'SERVER_NAME' => 'eshoper.loc'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/Users/Home/Desktop/Фреймворк Yii2 с Нуля до Профи. Часть 1/eshoper'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/Home/Desktop/Фреймворк Yii2 с Нуля до Профи. Часть 1/eshoper'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'C:/Users/Home/Desktop/Фреймворк Yii2 с Нуля до Профи. Часть 1/eshoper/web/index.php'
+    'REMOTE_PORT' => '65083'
+    'REDIRECT_URL' => '/favicon.ico'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/favicon.ico'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1561497910.474
+    'REQUEST_TIME' => 1561497910
+]
+2019-06-25 21:25:14 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "site/index". in C:\Users\Home\Desktop\Фреймворк Yii2 с Нуля до Профи. Часть 1\eshoper\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 C:\Users\Home\Desktop\Фреймворк Yii2 с Нуля до Профи. Часть 1\eshoper\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/index', Array)
+#1 C:\Users\Home\Desktop\Фреймворк Yii2 с Нуля до Профи. Часть 1\eshoper\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\Users\Home\Desktop\Фреймворк Yii2 с Нуля до Профи. Часть 1\eshoper\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\Users\Home\Desktop\Фреймворк Yii2 с Нуля до Профи. Часть 1\eshoper\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\Users\Home\Desktop\Фреймворк Yii2 с Нуля до Профи. Часть 1\eshoper\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Users\Home\Desktop\Фреймворк Yii2 с Нуля до Профи. Часть 1\eshoper\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2019-06-25 21:25:14 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'f7m4njdudteqofivvqc1ufao1f'
+    '_csrf' => 'aab90cad9f8ee615b17b9b79dcb7bd7a70f6bee2e80f9baaa5ffbcdd5abcde60a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"GAZVLZeJOmMjkk3U-lnfkBEBod0GYnqb\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'yiguzem'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'eshoper.loc:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_REFERER' => 'http://eshoper.loc:8080/site/about'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=f7m4njdudteqofivvqc1ufao1f; _csrf=aab90cad9f8ee615b17b9b79dcb7bd7a70f6bee2e80f9baaa5ffbcdd5abcde60a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22GAZVLZeJOmMjkk3U-lnfkBEBod0GYnqb%22%3B%7D'
+    'PATH' => 'C:\\wamp64\\bin\\php\\php7.3.1;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\Git\\cmd;C:\\ProgramData\\ComposerSetup\\bin;C:\\Windows\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.37 (Win64) PHP/7.2.14 Server at eshoper.loc Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.37 (Win64) PHP/7.2.14'
+    'SERVER_NAME' => 'eshoper.loc'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/Users/Home/Desktop/Фреймворк Yii2 с Нуля до Профи. Часть 1/eshoper'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/Home/Desktop/Фреймворк Yii2 с Нуля до Профи. Часть 1/eshoper'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'C:/Users/Home/Desktop/Фреймворк Yii2 с Нуля до Профи. Часть 1/eshoper/web/index.php'
+    'REMOTE_PORT' => '65088'
+    'REDIRECT_URL' => '/site/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/site/index'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1561497914.51
+    'REQUEST_TIME' => 1561497914
+]
+2019-06-25 21:25:14 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "favicon.ico". in C:\Users\Home\Desktop\Фреймворк Yii2 с Нуля до Профи. Часть 1\eshoper\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 C:\Users\Home\Desktop\Фреймворк Yii2 с Нуля до Профи. Часть 1\eshoper\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('favicon.ico', Array)
+#1 C:\Users\Home\Desktop\Фреймворк Yii2 с Нуля до Профи. Часть 1\eshoper\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\Users\Home\Desktop\Фреймворк Yii2 с Нуля до Профи. Часть 1\eshoper\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\Users\Home\Desktop\Фреймворк Yii2 с Нуля до Профи. Часть 1\eshoper\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\Users\Home\Desktop\Фреймворк Yii2 с Нуля до Профи. Часть 1\eshoper\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Users\Home\Desktop\Фреймворк Yii2 с Нуля до Профи. Часть 1\eshoper\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2019-06-25 21:25:14 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'f7m4njdudteqofivvqc1ufao1f'
+    '_csrf' => 'aab90cad9f8ee615b17b9b79dcb7bd7a70f6bee2e80f9baaa5ffbcdd5abcde60a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"GAZVLZeJOmMjkk3U-lnfkBEBod0GYnqb\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'yiguzem'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'eshoper.loc:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://eshoper.loc:8080/site/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=f7m4njdudteqofivvqc1ufao1f; _csrf=aab90cad9f8ee615b17b9b79dcb7bd7a70f6bee2e80f9baaa5ffbcdd5abcde60a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22GAZVLZeJOmMjkk3U-lnfkBEBod0GYnqb%22%3B%7D'
+    'PATH' => 'C:\\wamp64\\bin\\php\\php7.3.1;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\Git\\cmd;C:\\ProgramData\\ComposerSetup\\bin;C:\\Windows\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.37 (Win64) PHP/7.2.14 Server at eshoper.loc Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.37 (Win64) PHP/7.2.14'
+    'SERVER_NAME' => 'eshoper.loc'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/Users/Home/Desktop/Фреймворк Yii2 с Нуля до Профи. Часть 1/eshoper'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/Home/Desktop/Фреймворк Yii2 с Нуля до Профи. Часть 1/eshoper'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'C:/Users/Home/Desktop/Фреймворк Yii2 с Нуля до Профи. Часть 1/eshoper/web/index.php'
+    'REMOTE_PORT' => '65089'
+    'REDIRECT_URL' => '/favicon.ico'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/favicon.ico'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1561497914.709
+    'REQUEST_TIME' => 1561497914
+]
+2019-06-25 21:25:19 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "site/index". in C:\Users\Home\Desktop\Фреймворк Yii2 с Нуля до Профи. Часть 1\eshoper\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 C:\Users\Home\Desktop\Фреймворк Yii2 с Нуля до Профи. Часть 1\eshoper\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/index', Array)
+#1 C:\Users\Home\Desktop\Фреймворк Yii2 с Нуля до Профи. Часть 1\eshoper\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\Users\Home\Desktop\Фреймворк Yii2 с Нуля до Профи. Часть 1\eshoper\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\Users\Home\Desktop\Фреймворк Yii2 с Нуля до Профи. Часть 1\eshoper\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\Users\Home\Desktop\Фреймворк Yii2 с Нуля до Профи. Часть 1\eshoper\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Users\Home\Desktop\Фреймворк Yii2 с Нуля до Профи. Часть 1\eshoper\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2019-06-25 21:25:19 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'f7m4njdudteqofivvqc1ufao1f'
+    '_csrf' => 'aab90cad9f8ee615b17b9b79dcb7bd7a70f6bee2e80f9baaa5ffbcdd5abcde60a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"GAZVLZeJOmMjkk3U-lnfkBEBod0GYnqb\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'yiguzem'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'eshoper.loc:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_REFERER' => 'http://eshoper.loc:8080/site/about'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=f7m4njdudteqofivvqc1ufao1f; _csrf=aab90cad9f8ee615b17b9b79dcb7bd7a70f6bee2e80f9baaa5ffbcdd5abcde60a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22GAZVLZeJOmMjkk3U-lnfkBEBod0GYnqb%22%3B%7D'
+    'PATH' => 'C:\\wamp64\\bin\\php\\php7.3.1;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\Git\\cmd;C:\\ProgramData\\ComposerSetup\\bin;C:\\Windows\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.37 (Win64) PHP/7.2.14 Server at eshoper.loc Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.37 (Win64) PHP/7.2.14'
+    'SERVER_NAME' => 'eshoper.loc'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/Users/Home/Desktop/Фреймворк Yii2 с Нуля до Профи. Часть 1/eshoper'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/Home/Desktop/Фреймворк Yii2 с Нуля до Профи. Часть 1/eshoper'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'C:/Users/Home/Desktop/Фреймворк Yii2 с Нуля до Профи. Часть 1/eshoper/web/index.php'
+    'REMOTE_PORT' => '65095'
+    'REDIRECT_URL' => '/site/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/site/index'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1561497919.133
+    'REQUEST_TIME' => 1561497919
+]
+2019-06-25 21:25:19 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "favicon.ico". in C:\Users\Home\Desktop\Фреймворк Yii2 с Нуля до Профи. Часть 1\eshoper\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 C:\Users\Home\Desktop\Фреймворк Yii2 с Нуля до Профи. Часть 1\eshoper\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('favicon.ico', Array)
+#1 C:\Users\Home\Desktop\Фреймворк Yii2 с Нуля до Профи. Часть 1\eshoper\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\Users\Home\Desktop\Фреймворк Yii2 с Нуля до Профи. Часть 1\eshoper\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\Users\Home\Desktop\Фреймворк Yii2 с Нуля до Профи. Часть 1\eshoper\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\Users\Home\Desktop\Фреймворк Yii2 с Нуля до Профи. Часть 1\eshoper\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Users\Home\Desktop\Фреймворк Yii2 с Нуля до Профи. Часть 1\eshoper\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2019-06-25 21:25:19 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'f7m4njdudteqofivvqc1ufao1f'
+    '_csrf' => 'aab90cad9f8ee615b17b9b79dcb7bd7a70f6bee2e80f9baaa5ffbcdd5abcde60a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"GAZVLZeJOmMjkk3U-lnfkBEBod0GYnqb\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'yiguzem'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'eshoper.loc:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://eshoper.loc:8080/site/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=f7m4njdudteqofivvqc1ufao1f; _csrf=aab90cad9f8ee615b17b9b79dcb7bd7a70f6bee2e80f9baaa5ffbcdd5abcde60a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22GAZVLZeJOmMjkk3U-lnfkBEBod0GYnqb%22%3B%7D'
+    'PATH' => 'C:\\wamp64\\bin\\php\\php7.3.1;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\Git\\cmd;C:\\ProgramData\\ComposerSetup\\bin;C:\\Windows\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.37 (Win64) PHP/7.2.14 Server at eshoper.loc Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.37 (Win64) PHP/7.2.14'
+    'SERVER_NAME' => 'eshoper.loc'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/Users/Home/Desktop/Фреймворк Yii2 с Нуля до Профи. Часть 1/eshoper'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/Home/Desktop/Фреймворк Yii2 с Нуля до Профи. Часть 1/eshoper'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'C:/Users/Home/Desktop/Фреймворк Yii2 с Нуля до Профи. Часть 1/eshoper/web/index.php'
+    'REMOTE_PORT' => '65096'
+    'REDIRECT_URL' => '/favicon.ico'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/favicon.ico'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1561497919.373
+    'REQUEST_TIME' => 1561497919
+]
+2019-06-25 21:25:28 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "". in C:\Users\Home\Desktop\Фреймворк Yii2 с Нуля до Профи. Часть 1\eshoper\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 C:\Users\Home\Desktop\Фреймворк Yii2 с Нуля до Профи. Часть 1\eshoper\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('', Array)
+#1 C:\Users\Home\Desktop\Фреймворк Yii2 с Нуля до Профи. Часть 1\eshoper\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\Users\Home\Desktop\Фреймворк Yii2 с Нуля до Профи. Часть 1\eshoper\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\Users\Home\Desktop\Фреймворк Yii2 с Нуля до Профи. Часть 1\eshoper\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\Users\Home\Desktop\Фреймворк Yii2 с Нуля до Профи. Часть 1\eshoper\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Users\Home\Desktop\Фреймворк Yii2 с Нуля до Профи. Часть 1\eshoper\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2019-06-25 21:25:28 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'f7m4njdudteqofivvqc1ufao1f'
+    '_csrf' => 'aab90cad9f8ee615b17b9b79dcb7bd7a70f6bee2e80f9baaa5ffbcdd5abcde60a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"GAZVLZeJOmMjkk3U-lnfkBEBod0GYnqb\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'yiguzem'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'eshoper.loc:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=f7m4njdudteqofivvqc1ufao1f; _csrf=aab90cad9f8ee615b17b9b79dcb7bd7a70f6bee2e80f9baaa5ffbcdd5abcde60a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22GAZVLZeJOmMjkk3U-lnfkBEBod0GYnqb%22%3B%7D'
+    'PATH' => 'C:\\wamp64\\bin\\php\\php7.3.1;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\Git\\cmd;C:\\ProgramData\\ComposerSetup\\bin;C:\\Windows\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.37 (Win64) PHP/7.2.14 Server at eshoper.loc Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.37 (Win64) PHP/7.2.14'
+    'SERVER_NAME' => 'eshoper.loc'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/Users/Home/Desktop/Фреймворк Yii2 с Нуля до Профи. Часть 1/eshoper'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/Home/Desktop/Фреймворк Yii2 с Нуля до Профи. Часть 1/eshoper'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'C:/Users/Home/Desktop/Фреймворк Yii2 с Нуля до Профи. Часть 1/eshoper/web/index.php'
+    'REMOTE_PORT' => '65106'
+    'REDIRECT_URL' => '/'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1561497928.421
+    'REQUEST_TIME' => 1561497928
+]
+2019-06-25 21:25:28 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "favicon.ico". in C:\Users\Home\Desktop\Фреймворк Yii2 с Нуля до Профи. Часть 1\eshoper\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 C:\Users\Home\Desktop\Фреймворк Yii2 с Нуля до Профи. Часть 1\eshoper\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('favicon.ico', Array)
+#1 C:\Users\Home\Desktop\Фреймворк Yii2 с Нуля до Профи. Часть 1\eshoper\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\Users\Home\Desktop\Фреймворк Yii2 с Нуля до Профи. Часть 1\eshoper\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\Users\Home\Desktop\Фреймворк Yii2 с Нуля до Профи. Часть 1\eshoper\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\Users\Home\Desktop\Фреймворк Yii2 с Нуля до Профи. Часть 1\eshoper\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Users\Home\Desktop\Фреймворк Yii2 с Нуля до Профи. Часть 1\eshoper\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2019-06-25 21:25:28 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'f7m4njdudteqofivvqc1ufao1f'
+    '_csrf' => 'aab90cad9f8ee615b17b9b79dcb7bd7a70f6bee2e80f9baaa5ffbcdd5abcde60a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"GAZVLZeJOmMjkk3U-lnfkBEBod0GYnqb\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'yiguzem'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'eshoper.loc:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://eshoper.loc:8080/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=f7m4njdudteqofivvqc1ufao1f; _csrf=aab90cad9f8ee615b17b9b79dcb7bd7a70f6bee2e80f9baaa5ffbcdd5abcde60a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22GAZVLZeJOmMjkk3U-lnfkBEBod0GYnqb%22%3B%7D'
+    'PATH' => 'C:\\wamp64\\bin\\php\\php7.3.1;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\Git\\cmd;C:\\ProgramData\\ComposerSetup\\bin;C:\\Windows\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.37 (Win64) PHP/7.2.14 Server at eshoper.loc Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.37 (Win64) PHP/7.2.14'
+    'SERVER_NAME' => 'eshoper.loc'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/Users/Home/Desktop/Фреймворк Yii2 с Нуля до Профи. Часть 1/eshoper'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/Home/Desktop/Фреймворк Yii2 с Нуля до Профи. Часть 1/eshoper'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'C:/Users/Home/Desktop/Фреймворк Yii2 с Нуля до Профи. Часть 1/eshoper/web/index.php'
+    'REMOTE_PORT' => '65105'
+    'REDIRECT_URL' => '/favicon.ico'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/favicon.ico'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1561497928.613
+    'REQUEST_TIME' => 1561497928
+]
