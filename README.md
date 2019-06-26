@@ -15,3 +15,12 @@
 такие как ```<?php $this->beginPage() ?> <html lang="<?= Yii::$app->language ?>"> <?php $this->head() ?>```и тд.
 4) в ```config/web.php``` ставим параметр ```'language' => 'ru'```
 5) Создаем новый класс asset. ```assets/LtAppAsset.php```
+
+# Создание модели Category
+1) Создаем класс Category, обьявляем hasMany
+2) Создаем класс Product, обьявляем hasOne
+3) Создаем таблицы, настраиваем подключение к БД
+
+#Создаем виджет для меню категорий
+1) Создаем папку components
+2) Создаем класс MenuWidget
