@@ -28,7 +28,21 @@ class MenyWidget extends Widget
     public function run()
     {
         $this->data = Category::find()->indexBy('id')->asArray()->all();
+        $this->tree = $this->getTree();
         debug($this->data);
         return $this->tpl;
+    }
+
+    public function getTree()
+    {
+        $tree = [];
+        foreach ($this->data as $id => &$node) {
+            if (!$node['parent_id']) {
+                $tree[$node['id']] = &$node;
+            } else {
+                $this->data[$node['parent_id']]['childs'][$node['id']] = &$node;
+            }
+        }
+        return $tree;
     }
 }
