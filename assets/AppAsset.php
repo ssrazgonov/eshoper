@@ -34,6 +34,8 @@ class AppAsset extends AssetBundle
         "js/jquery.scrollUp.min.js",
         "js/price-range.js",
         "js/jquery.prettyPhoto.js",
+        "js/jquery.cookie.js",
+        "js/jquery.dcjqaccordion.2.7.min.js",
         "js/main.js",
     ];
     public $depends = [

@@ -6,6 +6,7 @@ namespace app\components;
 
 use yii\base\Widget;
 use app\models\Category;
+use \Yii;
 
 class MenyWidget extends Widget
 {
@@ -27,10 +28,18 @@ class MenyWidget extends Widget
 
     public function run()
     {
+        // проверяем кеш
+
+        if ( $menu = Yii::$app->cache->get('menu')) {
+            return $menu;
+        }
+
         $this->data = Category::find()->indexBy('id')->asArray()->all();
         $this->tree = $this->getTree();
-        debug($this->data);
-        return $this->tpl;
+        $this->menuHtml = $this->getMenuHtml($this->tree);
+        Yii::$app->cache->set('menu', $this->menuHtml, 60);
+
+        return $this->menuHtml;
     }
 
     public function getTree()
@@ -45,4 +54,21 @@ class MenyWidget extends Widget
         }
         return $tree;
     }
+
+    public function getMenuHtml($tree)
+    {
+        $str = '';
+        foreach ($tree as $category) {
+            $str .= $this->catToTemplate($category);
+        }
+        return $str;
+    }
+
+    public function catToTemplate($category)
+    {
+        ob_start();
+        require __DIR__ . '/menu_tpl/' .$this->tpl;
+        return ob_get_clean();
+    }
+
 }
