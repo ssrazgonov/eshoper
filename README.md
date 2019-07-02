@@ -27,8 +27,30 @@
 3) Получаем категории как массив, применяя функцию indexBy()
 4) остальной код см. в классе MenuWidget
 5) Кешируем, настройки кешированя в файле web.php,
-```'cache' => [
+``'cache' => [
                'class' => 'yii\caching\FileCache',
            ],
-```           
+``
 6) Используем кеш
+    ``$menu = Yii::$app->cache->get('menu')``
+    
+    ``Yii::$app->cache->set('menu', $this->menuHtml, 60);``
+##Вывод товар в категории
+
+7) Вывод хитов
+    1.  выбор хитов `$hits = Product::find()->where(['hit' => '1'])->limit(6)->all();`
+    2.  Картинка для хита
+    ``<?= \yii\helpers\Html::img('@web/images/home/sale.png', [``
+## Постраничная навигация
+Делаем так
+        `$query = Product::find()->where(['category_id' => $id]);`
+        
+         $pages = new Pagination(['totalCount' => $query->count(), 'pageSize' => 3]);
+         $products = $query->offset($pages->offset)->limit($pages->limit)->all();
+         
+Используем виджет для вывода пагинации
+    `                    <?php echo LinkPager::widget([
+                                 'pagination' => $pages,``
+                             ]);
+                         ?>`
+Убираем get parameters

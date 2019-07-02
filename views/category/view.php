@@ -1,3 +1,8 @@
+<?php
+use yii\widgets\LinkPager;
+
+?>
+
 <section id="advertisement">
     <div class="container">
         <img src="/images/shop/advertisement.jpg" alt="" />
@@ -49,7 +54,7 @@
             <div class="col-sm-9 padding-right">
 
                 <div class="features_items"><!--features_items-->
-                    <h2 class="title text-center">Features Items</h2>
+                    <h2 class="title text-center"><?= $category->name ?></h2>
 
                     <?php if(!empty($products)):?>
 
@@ -62,7 +67,7 @@
 
                                     <?= \yii\helpers\Html::img('@web/images/products/' . $product->img) ?>
                                     <h2>$<?= $product->price ?></h2>
-                                    <p><?= $product->name ?></p>
+                                    <p><a href="<?= \yii\helpers\Url::to(['product/view', 'id' => $product->id]) ?>"><?= $product->name ?></a></p>
                                     <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
                                 </div>
 
@@ -93,29 +98,11 @@
                     Товаров нет
                     <?php endif; ?>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
                     <div class="clearfix"></div>
-                    <ul class="pagination">
-                        <li class="active"><a href="">1</a></li>
-                        <li><a href="">2</a></li>
-                        <li><a href="">3</a></li>
-                        <li><a href="">&raquo;</a></li>
-                    </ul>
+                    <?php echo LinkPager::widget([
+                            'pagination' => $pages,
+                        ]);
+                    ?>
                 </div><!--features_items-->
             </div>
         </div>
